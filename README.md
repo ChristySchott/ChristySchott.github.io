@@ -1,2 +1,3 @@
-# ChristySchott.github.io
-Site responsivo desenvolvido em curso online
+ http://ChristySchott.github.io
+
+Site responsivo desenvolvido em curso online. O autor do possui uma playlistcom a gravação de toda a elaboração do site, porém, eu baixei o layout montado por ele e desenvolvi de forma autônoma, usando os vídeos apenas para tirar dúvidas. Pude aprender muitas coisas durante o processo, e melhorei muito minha manipulação do CSS e do HTML. Principais aprendizados: trabalhei com Medias, logo pude me aprofundar mais na marcação de um site responsivo, aprendi como usar o CSS para fazer interações, substituindo o JavaScript e tornando o processo mais simples e aprendi como usar um carousel.
