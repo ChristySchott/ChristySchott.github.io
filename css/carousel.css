@@ -1,0 +1,172 @@
+.owl-carousel {
+    display: none;
+    width: 100%;
+    height: 100%;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    z-index: 1;
+    float: left;
+}
+
+.owl-stage-outer {
+    height: 100%;
+}
+
+.owl-carousel .owl-stage {
+    position: relative;
+    -ms-touch-action: pan-Y;
+    height: 100%;
+}
+
+.owl-carousel .owl-item {
+    position: relative;
+    min-height: 1px;
+    height: 100%;
+    float: left;
+    -webkit-backface-visibility: hidden;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.owl-lazy {
+    height: 100%;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.owl-prev,
+.owl-next {
+    position: absolute;
+    background: rgba(0, 0, 0, .5);
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    top: 50%;
+    left: 0;
+    padding: 20px 12px;
+    color: #fff;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+    background: #f47933;
+}
+
+.owl-prev {
+    border-radius: 0 4px 4px 0;
+    -webkit-border-radius: 0 4px 4px 0;
+}
+
+.owl-next {
+    left: auto;
+    right: 0;
+    border-radius: 4px 0 0 4px;
+    -webkit-border-radius: 4px 0 0 4px;
+}
+
+.owl-dots {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    bottom: 15px;
+    text-align: center;
+}
+
+.owl-dot {
+    background: #fff;
+    display: inline-block;
+    width: 35px;
+    height: 10px;
+    margin: 4px;
+}
+
+.owl-dot.active {
+    background: #f47933;
+}
+
+#carousel-principal {
+    height: calc(100% - 80px);
+}
+
+#carousel-principal .owl-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    background: rgba(244, 121, 51, .7);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+#carousel-principal .owl-caption strong {
+    font-size: 1.5rem;
+}
+
+/* TESTEMUNHAS
+======================================== */
+
+#carousel_testemunhas .owl-prev,
+#carousel_testemunhas .owl-next {
+    padding: 5px 11px;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+}
+#carousel_testemunhas .owl-prev{
+    left:-50px;
+}
+#carousel_testemunhas .owl-next{
+    right:-50px;
+}
+
+#carousel_testemunhas .owl-dots{
+    position: relative;
+    top:20px;
+}
+
+/* carrosel portfolio */
+.carousel-portfolio{
+    height: 55vh;
+    max-height: 400px;
+    min-height:300px;
+    margin-bottom: 30px;
+}
+.carousel-portfolio .owl-prev,
+.carousel-portfolio .owl-next {
+    text-align:center;
+    padding:0;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    transform: none; /*/ muda porque no owl-dots ta em 50%*/
+    top: auto; /*/ muda porque no owl-dots ta em 50%*/
+    bottom: 0;
+    left:0;
+    border-right: 3px solid #fff;
+    border-radius:0;
+    -webkit-border-radius:0;
+}
+.carousel-portfolio .owl-next {
+    left:35px;
+}
+.carousel-portfolio .owl-caption{
+    background: rgba(0,0,0, .7);
+    position: absolute;
+    font-size: 0.8125rem;
+    color: #fff;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 10px;
+    bottom: 0;
+    width: calc(100% - 70px); /* 70px pois cada seta tem 35px*/
+    left:70px;
+}
