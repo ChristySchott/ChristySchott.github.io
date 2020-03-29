@@ -221,7 +221,7 @@
     padding: 50px 0;
     color: #fff;
     text-align: center;
-    background-image: url(ChristySchott.github.io/blob/master/images/agencia-curiosidades-bg.jpg);
+    background-image: url(https://christyschott.github.io/images/agencia-curiosidades-bg.jpg);
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
@@ -849,7 +849,7 @@
 }
 
 .contato-infos {
-    background: url(../images/contato-bg.jpg);
+    background: url(https://christyschott.github.io/images/contato-bg.jpg);
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
